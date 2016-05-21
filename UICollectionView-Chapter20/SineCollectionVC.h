@@ -6,8 +6,8 @@
 //  Copyright © 2016年 ZhangBaoGuo. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "BasicCollectionVC.h"
 
-@interface SineCollectionVC : UICollectionViewController
+@interface SineCollectionVC : BasicCollectionVC
 
 @end

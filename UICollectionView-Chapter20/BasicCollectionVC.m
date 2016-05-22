@@ -105,7 +105,7 @@ static NSString * const kSupplementaryView = @"kSupplementaryView";
     ALAsset *assetForPath=manager.assetsArray[indexPath.section][indexPath.row];
     UIImage *assetThumb=[UIImage imageWithCGImage:[assetForPath thumbnail]];
     
-    UIImageView *imageView=[[UIImageView alloc]initWithFrame:CGRectMake(0, 0, 60, 60)];
+    UIImageView *imageView=[[UIImageView alloc]initWithFrame:cell.bounds];
     imageView.contentMode=UIViewContentModeScaleAspectFit;
     [imageView setImage:assetThumb];
     

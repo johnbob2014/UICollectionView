@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1E508B051CF1AA56002E9B52 /* CircleCollectionVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E508B041CF1AA56002E9B52 /* CircleCollectionVC.m */; };
+		1E508B091CF1AB3A002E9B52 /* CircleCutstomLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E508B081CF1AB3A002E9B52 /* CircleCutstomLayout.m */; };
 		1EDBDC8F1CEF42D4003587F9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EDBDC8E1CEF42D4003587F9 /* main.m */; };
 		1EDBDC921CEF42D4003587F9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EDBDC911CEF42D4003587F9 /* AppDelegate.m */; };
 		1EDBDC981CEF42D4003587F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EDBDC961CEF42D4003587F9 /* Main.storyboard */; };
@@ -19,12 +21,18 @@
 		1EF4544B1CF08830002E6F04 /* BasicCollectionVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EF4544A1CF08830002E6F04 /* BasicCollectionVC.m */; };
 		1EF4544F1CF0ADEB002E6F04 /* AnimatingFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EF4544E1CF0ADEB002E6F04 /* AnimatingFlowLayout.m */; };
 		1EF454531CF0AE30002E6F04 /* AnimatingCollectionVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EF454521CF0AE30002E6F04 /* AnimatingCollectionVC.m */; };
+		1EF736761CF183EE00F0F0F1 /* LineFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EF736751CF183EE00F0F0F1 /* LineFlowLayout.m */; };
+		1EF7367A1CF18D3C00F0F0F1 /* LineCollectionVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EF736791CF18D3C00F0F0F1 /* LineCollectionVC.m */; };
 		1EFA1A7C1CEFDE9D00A24821 /* GCPhotoLibraryManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EFA1A7B1CEFDE9D00A24821 /* GCPhotoLibraryManager.m */; };
 		1EFA1A7E1CEFF0BD00A24821 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EFA1A7D1CEFF0BD00A24821 /* AssetsLibrary.framework */; };
 		1EFA1A811CEFF6D100A24821 /* DecorationFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EFA1A801CEFF6D100A24821 /* DecorationFlowLayout.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1E508B031CF1AA56002E9B52 /* CircleCollectionVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleCollectionVC.h; sourceTree = "<group>"; };
+		1E508B041CF1AA56002E9B52 /* CircleCollectionVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleCollectionVC.m; sourceTree = "<group>"; };
+		1E508B071CF1AB3A002E9B52 /* CircleCutstomLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleCutstomLayout.h; sourceTree = "<group>"; };
+		1E508B081CF1AB3A002E9B52 /* CircleCutstomLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleCutstomLayout.m; sourceTree = "<group>"; };
 		1EDBDC8A1CEF42D3003587F9 /* UICollectionView-Chapter20.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UICollectionView-Chapter20.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1EDBDC8E1CEF42D4003587F9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1EDBDC901CEF42D4003587F9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -47,6 +55,10 @@
 		1EF4544E1CF0ADEB002E6F04 /* AnimatingFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimatingFlowLayout.m; sourceTree = "<group>"; };
 		1EF454511CF0AE30002E6F04 /* AnimatingCollectionVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimatingCollectionVC.h; sourceTree = "<group>"; };
 		1EF454521CF0AE30002E6F04 /* AnimatingCollectionVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimatingCollectionVC.m; sourceTree = "<group>"; };
+		1EF736741CF183EE00F0F0F1 /* LineFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LineFlowLayout.h; sourceTree = "<group>"; };
+		1EF736751CF183EE00F0F0F1 /* LineFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LineFlowLayout.m; sourceTree = "<group>"; };
+		1EF736781CF18D3C00F0F0F1 /* LineCollectionVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LineCollectionVC.h; sourceTree = "<group>"; };
+		1EF736791CF18D3C00F0F0F1 /* LineCollectionVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LineCollectionVC.m; sourceTree = "<group>"; };
 		1EFA1A7A1CEFDE9D00A24821 /* GCPhotoLibraryManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCPhotoLibraryManager.h; sourceTree = "<group>"; };
 		1EFA1A7B1CEFDE9D00A24821 /* GCPhotoLibraryManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCPhotoLibraryManager.m; sourceTree = "<group>"; };
 		1EFA1A7D1CEFF0BD00A24821 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
@@ -66,6 +78,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1E508B061CF1AA60002E9B52 /* Circle Custom Layout */ = {
+			isa = PBXGroup;
+			children = (
+				1E508B031CF1AA56002E9B52 /* CircleCollectionVC.h */,
+				1E508B041CF1AA56002E9B52 /* CircleCollectionVC.m */,
+				1E508B071CF1AB3A002E9B52 /* CircleCutstomLayout.h */,
+				1E508B081CF1AB3A002E9B52 /* CircleCutstomLayout.m */,
+			);
+			name = "Circle Custom Layout";
+			sourceTree = "<group>";
+		};
 		1EDBDC811CEF42D3003587F9 = {
 			isa = PBXGroup;
 			children = (
@@ -94,7 +117,9 @@
 				1EF4544C1CF0883A002E6F04 /* Basic Without Layout */,
 				1EF0F27E1CF046D000627BBF /* Decoration Flow Layout */,
 				1EF454501CF0ADF5002E6F04 /* Animating Flow Layout */,
-				1EF0F2821CF0592100627BBF /* Sine Custom Layout With Gesture Recognizer */,
+				1EF736771CF18CF600F0F0F1 /* Line Flow Layout */,
+				1EF0F2821CF0592100627BBF /* Sine Custom Layout */,
+				1E508B061CF1AA60002E9B52 /* Circle Custom Layout */,
 				1EDBDC991CEF42D4003587F9 /* Assets.xcassets */,
 				1EDBDC9B1CEF42D4003587F9 /* LaunchScreen.storyboard */,
 				1EDBDC9E1CEF42D4003587F9 /* Info.plist */,
@@ -124,7 +149,7 @@
 			name = "Decoration Flow Layout";
 			sourceTree = "<group>";
 		};
-		1EF0F2821CF0592100627BBF /* Sine Custom Layout With Gesture Recognizer */ = {
+		1EF0F2821CF0592100627BBF /* Sine Custom Layout */ = {
 			isa = PBXGroup;
 			children = (
 				1EDBDCAA1CEF4EB5003587F9 /* SineCollectionVC.h */,
@@ -132,7 +157,7 @@
 				1EF0F27F1CF04D3600627BBF /* SineCustomLayout.h */,
 				1EF0F2801CF04D3600627BBF /* SineCustomLayout.m */,
 			);
-			name = "Sine Custom Layout With Gesture Recognizer";
+			name = "Sine Custom Layout";
 			sourceTree = "<group>";
 		};
 		1EF4544C1CF0883A002E6F04 /* Basic Without Layout */ = {
@@ -153,6 +178,17 @@
 				1EF4544E1CF0ADEB002E6F04 /* AnimatingFlowLayout.m */,
 			);
 			name = "Animating Flow Layout";
+			sourceTree = "<group>";
+		};
+		1EF736771CF18CF600F0F0F1 /* Line Flow Layout */ = {
+			isa = PBXGroup;
+			children = (
+				1EF736781CF18D3C00F0F0F1 /* LineCollectionVC.h */,
+				1EF736791CF18D3C00F0F0F1 /* LineCollectionVC.m */,
+				1EF736741CF183EE00F0F0F1 /* LineFlowLayout.h */,
+				1EF736751CF183EE00F0F0F1 /* LineFlowLayout.m */,
+			);
+			name = "Line Flow Layout";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -226,15 +262,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				1EF0F2811CF04D3600627BBF /* SineCustomLayout.m in Sources */,
+				1EF736761CF183EE00F0F0F1 /* LineFlowLayout.m in Sources */,
 				1EDBDCA91CEF4DB5003587F9 /* DecorationCollectionVC.m in Sources */,
 				1EDBDCAF1CEF4F63003587F9 /* DecorationCollectionReusableView.m in Sources */,
 				1EF4544B1CF08830002E6F04 /* BasicCollectionVC.m in Sources */,
 				1EDBDC921CEF42D4003587F9 /* AppDelegate.m in Sources */,
 				1EDBDCAC1CEF4EB5003587F9 /* SineCollectionVC.m in Sources */,
 				1EDBDC8F1CEF42D4003587F9 /* main.m in Sources */,
+				1E508B091CF1AB3A002E9B52 /* CircleCutstomLayout.m in Sources */,
 				1EFA1A7C1CEFDE9D00A24821 /* GCPhotoLibraryManager.m in Sources */,
 				1EF4544F1CF0ADEB002E6F04 /* AnimatingFlowLayout.m in Sources */,
+				1E508B051CF1AA56002E9B52 /* CircleCollectionVC.m in Sources */,
 				1EF454531CF0AE30002E6F04 /* AnimatingCollectionVC.m in Sources */,
+				1EF7367A1CF18D3C00F0F0F1 /* LineCollectionVC.m in Sources */,
 				1EFA1A811CEFF6D100A24821 /* DecorationFlowLayout.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

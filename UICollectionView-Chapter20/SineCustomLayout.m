@@ -10,7 +10,6 @@
 
 #define kCellSize   50.0 //assumes square cell
 #define kHorizontalInset    10.0 //on the left and right
-//#define kPi 3.141592653
 #define kVerticalSpace  10.0  //vertical space between cells
 #define kSectionHeight  20.0
 #define kCenterXPosition    160.0
